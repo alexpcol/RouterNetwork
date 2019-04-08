@@ -9,7 +9,7 @@
 import Foundation
 
 public class Network {
-    static let shared = Network()
+    public static let shared = Network()
     
     private let config: URLSessionConfiguration
     private let session: URLSession
