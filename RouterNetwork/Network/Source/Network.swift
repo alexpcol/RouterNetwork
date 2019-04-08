@@ -19,7 +19,7 @@ public class Network {
         session = URLSession(configuration: config)
     }
     
-    func request<O: Routable, T: Decodable>(router: O, completion: @escaping (Result<T>) -> ()) {
+    public func request<O: Routable, T: Decodable>(router: O, completion: @escaping (Result<T>) -> ()) {
         do {
             let task = try session.dataTask(with: router.request()) { (data, urlResponse, error) in
                 DispatchQueue.main.async {
