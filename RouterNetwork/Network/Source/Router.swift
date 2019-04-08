@@ -96,10 +96,9 @@ extension Routable{
                 }
             }
         default:
-            print("Get method")
             var urlComp = URLComponents(string: url.absoluteString)!
             var items = [URLQueryItem]()
-            
+
             if let bodyObject = try? JSONEncoder().encode(body), let params  = try? JSONSerialization.jsonObject(with: bodyObject, options: []) as? [String: String] {
                 for (key,value) in params {
                     items.append(URLQueryItem(name: key, value: value))

@@ -64,36 +64,20 @@
 		14B77A4B225B8C0000FE4809 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				14B77A52225B8C8100FE4809 /* Router */,
-				14B77A51225B8C5B00FE4809 /* Error */,
-				14B77A4E225B8C3D00FE4809 /* Result */,
-				14B77A4C225B8C1800FE4809 /* Network.swift */,
+				14F5631F225BA030001A3C30 /* Source */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		14B77A4E225B8C3D00FE4809 /* Result */ = {
-			isa = PBXGroup;
-			children = (
-				14B77A4F225B8C5000FE4809 /* NetworkResult.swift */,
-			);
-			path = Result;
-			sourceTree = "<group>";
-		};
-		14B77A51225B8C5B00FE4809 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				14B77A55225B8D4800FE4809 /* NetworkError.swift */,
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		14B77A52225B8C8100FE4809 /* Router */ = {
+		14F5631F225BA030001A3C30 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				14B77A53225B8C9300FE4809 /* Router.swift */,
+				14B77A55225B8D4800FE4809 /* NetworkError.swift */,
+				14B77A4F225B8C5000FE4809 /* NetworkResult.swift */,
+				14B77A4C225B8C1800FE4809 /* Network.swift */,
 			);
-			path = Router;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
